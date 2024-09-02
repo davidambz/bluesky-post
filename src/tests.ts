@@ -1,0 +1,1 @@
+console.log(new Date(new Date().setFullYear(new Date().getFullYear() - 10)).toISOString());
