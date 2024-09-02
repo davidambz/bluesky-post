@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ESNext",                                  /* Define a versão do JavaScript para a saída. */
+    "module": "NodeNext",                                /* Define o tipo de módulo gerado. */
+    "moduleResolution": "NodeNext",                      /* Define como o TypeScript resolve os módulos. */
+    "esModuleInterop": true,                             /* Adiciona suporte para a interoperabilidade de módulos ES e CommonJS. */
+    "forceConsistentCasingInFileNames": true,            /* Garante que a capitalização dos nomes dos arquivos seja consistente. */
+
+    /* Modules */
+    "baseUrl": "./",
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+
+    /* Emit */
+    "outDir": "./dist",                                  /* Especifica o diretório de saída para os arquivos emitidos. */
+    "sourceMap": true,                                  /* Cria arquivos de mapa de origem para os arquivos JavaScript emitidos. */
+
+    /* Type Checking */
+    "strict": true,                                     /* Habilita todas as opções de verificação de tipo estritas. */
+    "skipLibCheck": true                                /* Ignora a verificação de tipos em arquivos .d.ts. */
+  }
+}
