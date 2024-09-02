@@ -1,0 +1,6 @@
+/node_modules
+/dist
+.tool-versions
+.env
+*.jpg
+*.png
