@@ -1,4 +1,4 @@
-import { BskyAgent } from "@atproto/api";
+import { AtpAgent } from "@atproto/api";
 import * as dotenv from "dotenv";
 import fs from "fs";
 
@@ -8,7 +8,7 @@ const IMAGE_PATH: string = "./images/example.jpg";
 const IMAGE_MIMETYPE: string = "image/png";
 const IMAGE_ALT_TEXT: string = "brief alt text description of the image";
 
-const agent = new BskyAgent({
+const agent = new AtpAgent({
   service: "https://bsky.social",
 });
 
